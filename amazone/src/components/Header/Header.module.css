@@ -138,3 +138,32 @@
     right: 25px;
     color: #eca345;
 }
+
+@media (max-width : 540px) {
+    .header{
+        display: block;
+        height: 150px;
+    }
+    .header__search{
+        margin-bottom: 10px ;
+    }
+    .header__logo{
+        width: 330px;
+    }
+    .header__logo img{
+        width: 50%;
+        margin-left: 100px;
+        margin-top: 12px;
+        padding: 0px 5px;
+    }
+    .header__nation{
+       justify-content: center;
+    }
+    .header__search input{
+        width: 95%;     
+    }
+    .header__search button{
+        position: absolute;
+        right: 19px;
+    }
+}

@@ -7,11 +7,20 @@ padding: 10px;
     list-style: none;
     color: white;
     font-size: 15px;
+    margin-left: 20px;
 }
 .lists ul li{
-    margin-left: 14.5px;
+    margin-right: 19px;
+    margin-top: 4px;
     cursor: pointer;
 }
 .menu{
-    font-size: 20px;
+    font-size: 25px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+@media (max-width: 540px) {
+    .lists ul li {
+        display: none;
+    }
 }

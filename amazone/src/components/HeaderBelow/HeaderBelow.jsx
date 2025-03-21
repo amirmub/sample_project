@@ -7,7 +7,7 @@ function HeaderBelow() {
   return (
     <div className={classes.lists}>
       <ul>
-        <li className={classes.menu}><IoMenu /></li>
+        <p className={classes.menu}><IoMenu /></p>
         <li>All</li>
         <li>Today's Deal</li>
         <li>Customer Service</li>
