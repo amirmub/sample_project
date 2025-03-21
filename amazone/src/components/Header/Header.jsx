@@ -3,6 +3,7 @@ import classes from "./Header.module.css"
 import { IoLocationOutline } from "react-icons/io5";
 import { GoSearch } from "react-icons/go";
 import { BiCart } from "react-icons/bi";
+import HeaderBelow from '../HeaderBelow/HeaderBelow';
 
 function Header() {
   return (
@@ -57,6 +58,7 @@ function Header() {
             </div>
        </div>
     </section>
+    <HeaderBelow />
     </>
   )
 }

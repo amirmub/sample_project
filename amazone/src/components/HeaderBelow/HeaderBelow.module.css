@@ -1,0 +1,17 @@
+.lists  {
+ background-color: #232f3e;
+padding: 10px;
+}
+.lists ul {
+    display: flex;
+    list-style: none;
+    color: white;
+    font-size: 15px;
+}
+.lists ul li{
+    margin-left: 14.5px;
+    cursor: pointer;
+}
+.menu{
+    font-size: 20px;
+}
