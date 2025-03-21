@@ -1,0 +1,11 @@
+.shadow{
+    position: relative;
+}
+.shadow::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    height: 230px;
+    width: 100%;
+    background: linear-gradient( rgba(255, 255, 255, 0),rgba(255, 255, 255,1));
+}
