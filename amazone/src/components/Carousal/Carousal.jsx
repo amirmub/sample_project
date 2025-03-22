@@ -4,7 +4,7 @@ import { Carousel } from 'react-responsive-carousel';
 import {img} from "../../assets/images/data"
 import classes from "./Carousal.module.css"
 
-function Carousal() {
+function CarousalEffect() {
   return (
     <>
        
@@ -33,4 +33,4 @@ function Carousal() {
   )
 }
 
-export default Carousal
+export default CarousalEffect

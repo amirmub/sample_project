@@ -1,0 +1,25 @@
+.CatagoryCard{
+    height: 350px;
+    width: 310px;
+    background-color: white;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+    padding: 10px 15px;
+}
+.CatagoryCard img{
+    width: 100%;
+}
+.CatagoryCard  a {
+    color: black;
+    text-decoration: none;
+}
+.CatagoryCard   h2 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 10px 0;
+}
+.CatagoryCard p{
+   font-size: 13px;
+   font-weight: 600;
+   color: #3699eb;
+   margin: 20px 5px;
+}
