@@ -8,7 +8,7 @@ import HeaderBelow from '../HeaderBelow/HeaderBelow';
 function Header() {
   return (
     <>
-    <section>
+    <section className={classes.header__container}>
        <div className={classes.header}>
             <div className={classes.header__logo}>
                 <a href=""><img src="https://pngimg.com/uploads/amazon/amazon_PNG25.png" alt="amozon icon" /></a>
