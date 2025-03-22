@@ -23,3 +23,9 @@
    color: #3699eb;
    margin: 20px 5px;
 }
+
+@media (max-width : 540px) {
+    .CatagoryCard{
+       margin-top: 20px;
+    }
+}

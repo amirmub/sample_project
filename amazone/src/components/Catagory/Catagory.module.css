@@ -1,9 +1,20 @@
 .Catagory__main__container{
     position: absolute;
-    top: 50vh;}
+    top: 50vh;
+}
 .Catagory__container{
     display: grid;
     grid-template-columns: repeat(4,1fr);
     gap: 20px;
     margin-left: 25px;
+}
+@media (max-width : 540px) {
+    .Catagory__main__container{
+        position: absolute;
+        top: 400px;
+        left: 70px;
+    }
+    .Catagory__container{
+        display: block;
+    }
 }
