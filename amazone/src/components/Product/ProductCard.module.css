@@ -1,0 +1,26 @@
+.product__container{
+    height: 355px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.6);
+    padding: 15px 25px;
+}
+.product_img img{
+    width: 100%;
+    height: 230px;
+}
+.title{
+    font-size: 14px;
+    font-weight: 500;
+}
+.rating{
+    display: flex;
+    gap: 7px;
+    font-size: 14px;
+}
+.rating p{
+    margin-top: 5px;
+    font-size: 14px;
+}
+.price{
+    font-size: 14px;
+    font-weight: 500;
+}

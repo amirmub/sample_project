@@ -3,7 +3,7 @@ import './App.css'
 import Header from './components/Header/Header';
 import Carousal from './components/Carousal/Carousal';
 import Catagory from './components/Catagory/Catagory';
-import Product from './components/Product';
+import Product from './components/Product/Product';
 
 function App() {
 

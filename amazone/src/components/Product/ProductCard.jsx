@@ -1,27 +1,31 @@
 import React from 'react'
 import Rating from '@mui/material/Rating';
 import Stack from '@mui/material/Stack';
+import classes from "./ProductCard.module.css"
 
 function ProductCard({result}) {
   return (
-    <>
-      <a href="">
+    <div className={classes.productCard}>
+      <div className={classes.product__container}>
+        <a href="" className={classes.product_img}>
         <img src={result.image} alt="img" />
+        </a>
         <div>
-            <div>{result.title}</div>
-            <div>
-            <Stack spacing={3}>
+            <div className={classes.title}>{result.title}</div>
+            <div className={classes.rating}> 
+            <Stack spacing={1}>
                 <Rating name="half-rating" defaultValue={2.5} precision={0.5} />
-                <Rating name="half-rating-read" defaultValue={2.5} precision={0.5} readOnly />
+                {/* <Rating name="half-rating-read" defaultValue={2.5} precision={0.5} readOnly /> */}
             </Stack>
-                <small>40</small>
+                <p>40</p>
             </div>
-            <div>
+            <div className={classes.price}>
                $59.99
             </div>
         </div>
-      </a>
-    </>
+      </div>
+      
+    </div>
   )
 }
 
