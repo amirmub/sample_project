@@ -1,6 +1,5 @@
 import React from 'react'
 import Rating from '@mui/material/Rating';
-import Stack from '@mui/material/Stack';
 import classes from "./ProductCard.module.css"
 
 function ProductCard({result}) {
@@ -13,14 +12,11 @@ function ProductCard({result}) {
         <div>
             <div className={classes.title}>{result.title}</div>
             <div className={classes.rating}> 
-            <Stack spacing={1}>
-                <Rating name="half-rating" defaultValue={2.5} precision={0.5} />
-                {/* <Rating name="half-rating-read" defaultValue={2.5} precision={0.5} readOnly /> */}
-            </Stack>
-                <p>40</p>
+                <Rating name="half-rating" defaultValue={result.rating.rate} precision={0.2} />
+                <p>{result.rating.count}</p>
             </div>
             <div className={classes.price}>
-               $59.99
+               {`$${result.price}`}
             </div>
         </div>
       </div>

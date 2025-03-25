@@ -1,7 +1,8 @@
 .product__container{
     height: 355px;
-    box-shadow: 0 0 3px rgba(0, 0, 0, 0.6);
-    padding: 15px 25px;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.9);
+    padding: 15px ;
+    background-color: white;
 }
 .product_img img{
     width: 100%;

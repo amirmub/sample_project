@@ -1,16 +1,16 @@
 .lists  {
  background-color: #232f3e;
-padding: 10px;
+ padding: 5px;
 }
 .lists ul {
     display: flex;
     list-style: none;
     color: white;
-    font-size: 15px;
+    font-size: 14px;
     margin-left: 20px;
 }
 .lists ul li{
-    margin-right: 19px;
+    margin-right: 20px;
     margin-top: 4px;
     cursor: pointer;
 }
