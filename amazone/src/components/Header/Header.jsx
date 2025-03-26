@@ -11,7 +11,7 @@ function Header() {
     <section className={classes.header__container}>
        <div className={classes.header}>
             <div className={classes.header__logo}>
-                <a href=""><img src="https://pngimg.com/uploads/amazon/amazon_PNG25.png" alt="amozon icon" /></a>
+                <a href="/"><img src="https://pngimg.com/uploads/amazon/amazon_PNG25.png" alt="amozon icon" /></a>
 
                 <span><IoLocationOutline/></span>
                 
@@ -37,20 +37,20 @@ function Header() {
                         <option value="">EN</option>
                     </select>
                 </div>
-                <a href="" className={classes.header__nation__sign}>
+                <a href="/auth" className={classes.header__nation__sign}>
                     <div>
                         <p> Hello, Sign in</p>
                         <span>Account & Lists</span>
                     </div>
                 </a>
-                <a href="" className={classes.header__nation__sign}>
+                <a href="/orders" className={classes.header__nation__sign}>
                     <div>
                     <p>Returns</p>
                     <span>& Orders</span>
                     </div>
                 </a>
                <div className={classes.cart}>
-                    <a to=''>
+                    <a to='/cart'>
                         <span><BiCart /></span>
                         <p>0</p>
                     </a>

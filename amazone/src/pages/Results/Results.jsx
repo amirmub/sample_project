@@ -1,10 +1,11 @@
 import React from 'react'
+import Layout from '../../components/LayOut/Layout'
 
 function Results() {
   return (
-    <div>
-      
-    </div>
+    <Layout>
+      Results
+    </Layout>
   )
 }
 

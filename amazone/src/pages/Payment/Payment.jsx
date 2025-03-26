@@ -1,10 +1,11 @@
 import React from 'react'
+import Layout from '../../components/LayOut/Layout'
 
 function Payment() {
   return (
-    <div>
-      
-    </div>
+    <Layout>
+      Payment
+    </Layout>
   )
 }
 
