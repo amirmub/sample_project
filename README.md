@@ -1,1 +1,1 @@
-# amazone-clone
+# sample_project
